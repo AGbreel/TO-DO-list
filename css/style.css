@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+body {
+    background-image: linear-gradient(to right,rgba(126, 64, 246, 1), rgba(80, 139, 252, 1));
+    color: #fff;
+}
+
+.container {
+    background-color: #6441C9;
+}
+
+button {
+    background-color: #5683FC;
+}
+
+button:hover {
+    background-color: green;
+}
+
+i,
+.form-check-input,
+.form-check-label,
+#filter {
+    cursor: pointer;
+}
+
+.checkInput:checked + label {
+    text-decoration: line-through;
+}
